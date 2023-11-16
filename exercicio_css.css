@@ -1,0 +1,52 @@
+html{
+    background-color: black;
+    padding: 10px;
+}
+p{
+    color: aliceblue;
+
+}
+
+
+
+h1{
+    color: rgb(20, 181, 255);
+    font: size 30pt; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: rgb(244, 248, 244);
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cidade{
+    color:yellow ;
+    font-weight: bold;
+}
+.post{
+    background-color: blue;
+
+}
+
+
+
+#img_sabara{
+    width:100px;
+    height:100px;
+    padding:7px;
+    float: left;
+
+}
+#img_sao_joao_del_rei{
+    width:100px ;
+    height:100px ;
+    padding:5px;
+    float: left;
+}
+#img_sao_thome_das_letras{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+float: left;
+}
