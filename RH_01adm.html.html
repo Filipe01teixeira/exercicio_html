@@ -1,0 +1,248 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercicio_css.css">
+
+</head>
+<body>
+   <H1>Cidades de Minas Gerais</H1> 
+
+   <div class="post">
+    <img id="img_sabara" src="sabara_jpeg.jpg">
+    <h2>Sabará</h2>
+  
+    <p><span class="cidade"> Sabará</span> é um município brasileiro no estado de Minas Gerais, Região Sudeste do país. Localiza-se na Região Metropolitana de Belo Horizonte e ocupa uma área de 302,453 km², sendo que 31 km² estão em perímetro urbano. Sua população foi recenseada em 129 372 habitantes em 2022.[1] É constituído pelos distritos de Carvalho de Brito, Ravena e Mestre Caetano, além do distrito-sede</p>
+    esse post foi util ?
+    <form method="get">
+        <input type="radio" name="opinao" value="sim"
+        label for="opinao">sim</label>
+        <input type="radio" name="opinao" value="nao"
+        label for="opinao">nao</label>
+   </div>
+   
+
+   <div class="post">
+    <img id="img_sao_joao_del_rei" src="sao_joao_del_rei_jpeg.jpeg">
+    <h2>São João del-Rei</h2>
+    
+    <p><span class="cidade" >João del-Rei </span>é um município brasileiro do estado de Minas Gerais. Polo para cidades do Sul e Sudeste de Minas Gerais, é uma das maiores cidades setecentistas mineiras.
+
+        Considera-se que o bandeirante Tomé Portes del-Rei foi seu fundador, tendo este se estabelecido às margens do rio das Mortes, como guarda-mór do Porto Real da Passagem, formando nas proximidades um arraial homônimo ao rio.</p>
+        esse post foi util ?
+        <form method="get">
+            <input type="radio" name="opinao" value="sim"
+            label for="opinao">sim</label>
+            <input type="radio" name="opinao" value="nao"
+            label for="opinao">nao</label>
+   </div>
+
+   <div class="post">
+    <img id="sao_thome_das_letras" 
+    src="img_sao_thome_das_letras.jpeg">
+    <h2>são thomé das Letras</h2>
+    
+    <p> <span class="cidade" >são thomé das Letras </span> é um município do estado de Minas Gerais, no Brasil. Localiza-se a 346 km da capital do estado.[9] Sua população em 2010, segundo o censo realizado pelo Instituto Brasileiro de Geografia e Estatística (IBGE), era de 6 655 habitantes</p>
+    esse post foi util ?
+    <form method="get">
+        <input type="radio" name="opinao" value="sim"
+        label for="opinao">sim</label>
+        <input type="radio" name="opinao" value="nao"
+        label for="opinao">nao</label>
+    
+
+
+    </form>
+    
+   </div>
+   <form method="get">
+
+    <textarea name="comentario" id="" cols="30" rows="10">
+ Deixe seu comentario aqui...
+        
+
+    </textarea><br>
+    <input type="submit" value="Enviar">
+   </form>
+   </div>
+</body>
+</html><!/-->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Contratação</title>
+    <link rel="stylesheet" href="Adm_rh._html.css">
+</head>
+  
+    
+    <form method="get">
+        <H2>
+            <p>Dados Pessoais</p>
+        </H2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo"> 
+
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" id="data" name="data" placeholder="00/00/0000"required>
+
+        <label for="date">Data da Entrevista</label>
+        <input type="date" id="data" name="data">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email@gmail.com" required> 
+
+        <label for="estadoCivil">Estado Civil </label>
+        <select name="estadoCivil" id="estadoCivil">Estado Civil
+            <option value="solteiro">Solteiro</option>
+            <option value="Casado">Casado</option>
+            <option value="viuvo">viuvo</option>
+        </select>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" pattern="\d{3}\.\d{3}.\d{3}\-\d{2}\" required>
+    
+
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="(99)99999-9999" required> 
+
+
+
+        <label for="mensagem">Fale sobre Você competencias tecnicas e comportamentais:</label>
+        <textarea id="mensagem" name="mensagem" rows="2" required></textarea>
+        
+    
+        <label for="genero">Genero</label>
+        <select name="gereno" id="genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Indiferente">Indiferente</option>
+        </select>  
+
+        <h2>
+            <p>Formação Academica</p>
+        </h2>
+
+        <label for="Escolaridade">Escolaridade :</label>
+        <select name="escolaridade" id="escolaridade">
+            <option value="ensino_incompleto">Ensino-medio incompleto</option>
+            <option value="ensino_completo">Ensino-medio Completo</option>
+            <option value="ensino_superior_Completo">Ensino superior Completo</option>
+            <option value="Curso_tecnico">Curso tecnico</option>
+
+        </select><br> <br> 
+        <label for="Formação">Cursos:</label>
+        <input type="Formação" name="Formação academica "> <br> <br>
+      
+        <label for="Formação">Tempo de Formação:</label>
+        <input type="Formação" name="Formação academica "> <br> <br>
+
+        <label for="Formação">Tempo de experiencia:</label>
+        <input type="Formação" name="Formação academica "> <br> <br>
+        
+    
+    <h4>Carga Horaria Semanal</h4>
+    <label > 
+    <input type="radio" name="horas" id="horas" value="20"> 20</label>
+
+    
+    <input type="radio" name="horas" id="horas" value="30"> 30</label>
+
+    
+    <input type="radio" name="horas" id="horas" value="40"> 40</label>
+
+    
+    <input type="radio" name="horas" id="horas" value="44"> 44</label>
+
+    <h2>Informações das vaga Disponiveis: </h2>
+<div>
+    <label for="cargo"> cargo: </label>
+
+        <select name="cargo" id="cargo">
+        <option value="cargo">Selecione o cargo </option>
+        <option value="Diretoria">Diretoria</option>
+        <option value="Gerencia">Gerencia</option>
+        <option value="Auxiliar">Auxiliar</option>
+        <option value="Analista">Analista</option>
+        <option value="Estagiario">Estagiario</option>
+        </select>
+</div>
+
+    
+    <label for="Beneficios">Beneficios</label>
+ <div>
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="valetransporte">vale transporte</label>
+
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="valeAlimentação">vale alimentação</label>
+
+    
+
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="PlanoDeSaude">Plano de saúde</label>
+
+    
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="PlanoOdontologico">Plano Odontologico</label>
+
+    
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="valeCombustivel">Vale Combustivel</label>
+
+    
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="AuxilioCreche">Auxilio Creche</label>
+
+
+</div>
+    
+
+<div>
+    <h3>O que Buscamos em nossos Colaboradores</h3>
+    <ul>
+        <li>Comunicação</li>
+        <li>Relacionamento Interpessoal</li>
+        <li>Foco Nos Objetivos</li>
+        <li>Organização</li>
+        <li>Ètica</li>
+        <li>Empatia</li>
+        <li>Liderança</li>
+        <li>Proatividade</li>
+        <li>Criatividade</li>
+        <li>Flexibilidade</li>
+
+    </ul>
+
+</div>
+
+    <div>
+
+        <form action="#"> 
+            <ul class="menu">
+                <li><a href="#"> Contratado</a></li>
+                <li><a href="#">Dispençado</a></li>
+                <label for="#"></label>
+                
+                
+            </ul>
+        </form>
+    </div>
+
+    
+    </form>
+
+
+</body>
+</html>
