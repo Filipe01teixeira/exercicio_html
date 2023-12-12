@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Contratação</title>
+    <link rel="stylesheet" href="Adm_rh._html.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Seja Bem Vindo ! </h1>
+                    </div>
+                    <div class="login-button">
+        <div class="form-image">
+            <img id="form-image" src="img_rh_adm.jpeg" >
+     </div>
+     </div>
+     <div class="imagem">
+    <img id="imagem_RH" src="imagem_RH.jpeg" >
+     </div>
+
+     
+
+    <div>
+        <form id="FormularioDeContratação">
+        <button type="button" onclick="avancaParaProximaEtapa()"> Vamos Para a Proxima Etapa </button>
+    </form>
+    <script>
+        function avancaParaProximaEtapa(){
+            alert("avanca para a proxima etapa");
+            window.location.href = "cidades_mg.html"
+        }
+    </script>
+    </div>
+
+     </div>
+     </form>
+     </div>
+
+        
+    
+    
+  
+    
+    <!--<form method="get">
+        <H2>
+            <p>Dados Pessoais</p>
+        </H2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required> 
+
+        <label for="idade">Idade:</label>
+        <input type="idade" id="idade" name="idade">
+
+        <label for="date">Data</label>
+        <input type="date" id="data" name="data">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> 
+
+        <label for="estadoCivil">Estado Civil </label>
+        <select name="estadoCivil" id="estadoCivil">Estado Civil
+            <option value="solteiro">Solteiro</option>
+            <option value="Casado">Casado</option>
+            <option value="viuvo">viuvo</option>
+        </select>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" pattern="\d{3}\.\d{3}.\d{3}\-\d{2}\" required>
+    
+
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="(99)99999-9999" required> 
+
+
+
+        <label for="mensagem">Fale sobre Você competencias tecnicas e comportamentais:</label>
+        <textarea id="mensagem" name="mensagem" rows="2" required></textarea>
+        
+    
+        <label for="genero">Genero</label>
+        <select name="gereno" id="genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Indiferente">Indiferente</option>
+        </select>  
+
+        <h2>
+            <p>Formação Academica</p>
+        </h2>
+        <label for="Formação">Cursos:</label>
+        <input type="Formação" name="Formação academica "> <br> <br>
+      
+        <label for="Formação">Tempo de Formação:</label>
+        <input type="Formação" name="Formação academica "> <br> <br>
+
+        <label for="Formação">Tempo de experiencia:</label>
+        <input type="Formação" name="Formação academica "> <br> <br>
+        
+    
+    <label for="Horas">carga horaria semanal 20,30,40 ou 44</label>
+    
+    <input name="horas" type="time"> <br>
+
+    <h2>Informações das vaga Disponiveis: </h2>
+<div>
+    <label for="cargo"> cargo: </label>
+
+        <select name="cargo" id="cargo">
+        <option value="cargo">Selecione o cargo </option>
+        <option value="Diretoria">Diretoria</option>
+        <option value="Gerencia">Gerencia</option>
+        <option value="Auxiliar">Auxiliar</option>
+        <option value="Analista">Analista</option>
+        <option value="Estagiario">Estagiario</option>
+        </select>
+</div>
+
+    
+    <label for="Beneficios">Beneficios</label>
+ <div>
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="valetransporte">vale transporte</label>
+
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="valeAlimentação">vale alimentação</label>
+
+    
+
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="PlanoDeSaude">Plano de saúde</label>
+
+    
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="PlanoOdontologico">Plano Odontologico</label>
+
+    
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="valeCombustivel">Vale Combustivel</label>
+
+    
+    <input type="checkbox" id="vale transporte" name="Beneficios"value="vale transporte">
+    <label for="AuxilioCreche">Auxilio Creche</label>
+
+
+</div>
+    
+
+<div>
+    <h3>O que Buscamos em nossos Colaboradores</h3>
+    <ul>
+        <li>Comunicação</li>
+        <li>Relacionamento Interpessoal</li>
+        <li>Foco Nos Objetivos</li>
+        <li>Organização</li>
+        <li>Ètica</li>
+        <li>Empatia</li>
+        <li>Liderança</li>
+        <li>Proatividade</li>
+        <li>Criatividade</li>
+        <li>Flexibilidade</li>
+
+    </ul>
+
+</div>
+
+    <div>
+
+        <form action="#"> 
+            <ul class="menu">
+                <li><a href="#"> Contratado</a></li>
+                <li><a href="#">Dispençado</a></li>
+                <label for="#"></label>
+                
+                
+            </ul>
+        </form>
+    </div>
+
+    
+    </form>
+
+
+</body>
+</html>
+
+
+
+
