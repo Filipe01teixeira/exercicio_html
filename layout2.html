@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Segundo Layout</title>
+</head>
+<body>
+    <style>
+
+    
+        header{
+            background-color: darkgray;
+            grid-area: head;
+            text-align: center;
+            border:solid 5px;
+    
+            
+        }
+        main{
+            background-color: blue;
+            grid-area: main;
+            height: 90px;
+            border: solid 5px;
+        }
+        aside{
+            background-color: red;
+            grid-area: aside;
+            height: 90px;
+            border: solid 5px;
+        }
+        .container{
+            display:grid ;
+            grid-template-areas:
+           "head head"
+           "main aside";
+           height:100%;
+           grid-template-rows:50px auto;
+        }
+
+    </style>
+    <div class="container">
+    
+    <header>Meu Titulo</header>
+    <main>Conteudo principal</main>
+    <aside>Menu </aside>
+    </div>
+</body>
+</html>
